@@ -1,3 +1,3 @@
-# LeetCode
-LeetCode
-66---[Plus One](https://github.com/summer00/LeetCode/tree/master/src/plusOne)<br/>
+| \# | 问题 | 解决 | 难度 |
+|----|----------|-----------|------|
+| 001 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](.plusOne) | &nbsp;&nbsp;&nbsp;Easy |
