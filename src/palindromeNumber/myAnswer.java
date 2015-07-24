@@ -4,6 +4,7 @@ package palindromeNumber;
  * Determine whether an integer is a palindrome. Do this without extra space.
  */
 public class myAnswer {
+	
 	public static void main(String[] args) {
 		System.out.println(isPalindrome(0));
 	}
