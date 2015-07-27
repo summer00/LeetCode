@@ -2,8 +2,8 @@ package longestCommonSubstring;
 
 /**
  * 最长公共子串
- * http://www.cnblogs.com/ider/p/longest-common-substring-problem-optimization.
- * html
+ * http://www.cnblogs.com/ider/p/longest-common-substring-problem-optimization.html
+ * http://my.oschina.net/leejun2005/blog/117167
  */
 public class myAnswer {
 	public static void main(String[] args) {
@@ -23,7 +23,6 @@ public class myAnswer {
 						m++;
 						n++;
 					}
-
 				}
 				if (l > res) {
 					res = l;
