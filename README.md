@@ -28,6 +28,7 @@
 | 78 | [longest-common-prefix](http://www.lintcode.com/zh-cn/problem/longest-common-prefix/) | [Java](./lintCode/longestCommonPrefix) | Medium |最长公共前缀|
 | 79 | [longest-common-substring](http://www.lintcode.com/zh-cn/problem/longest-common-substring/) | [Java](./lintCode/longestCommonSubstring) | Medium |最长公共子串|
 | 100 | [subarray-sum](http://www.lintcode.com/zh-cn/problem/remove-duplicates-from-sorted-array/) | [Java](./lintCode/removeDuplicates) | Easy |删除排序数组中的重复数字|
+| 133 | [longest-words](http://www.lintcode.com/zh-cn/problem/longest-words/) | [Java](./lintCode/longestWords) | Easy |最长单词|
 | 138 | [subarray-sum](http://www.lintcode.com/zh-cn/problem/subarray-sum/) | [Java](./lintCode/subarraySum) | Easy |子数组之和|
 | 141 | [sqrtx](http://www.lintcode.com/zh-cn/problem/sqrtx/) | [Java](./lintCode/sqrt) | Easy |x的平方根(二分、牛顿)|
 | 142 | [o1-check-power-of-2](http://www.lintcode.com/zh-cn/problem/o1-check-power-of-2/) | [Java](./lintCode/checkPowerOf2) | Medium |O(1)检测2的幂次(巧用n&(n-1))|
