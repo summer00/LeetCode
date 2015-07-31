@@ -1,3 +1,42 @@
+###leetCode
+
 | \# | 问题 | 解决 | 难度 |
 |----|----------|-----------|------|
-| 066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](./src/plusOne) | &nbsp;&nbsp;&nbsp;Easy |
+| 066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](./src/plusOne) | Easy |
+| 049 | [anagrams](https://leetcode.com/problems/algorithms/) | [Java](./src/algorithms) | Easy |
+
+###lintCode
+
+| \# | 问题 | 解决 | 难度 | 说明 |
+|----|----------|-----------|------|----------------|
+| 2 | [trailing-zeros](http://www.lintcode.com/zh-cn/problem/trailing-zeros/) | [Java](./lintCode/trailingZeros) | Easy |尾部的零|
+| 13 | [strstr](http://www.lintcode.com/zh-cn/problem/strstr/) | [Java](./lintCode/strStr) | Easy |字符串查找|
+| 14 | [binary-search](http://www.lintcode.com/zh-cn/problem/binary-search/) | [Java](./lintCode/binarySearch) | Easy |二分查找|
+| 28 | [search-a-2d-matrix](http://www.lintcode.com/zh-cn/problem/search-a-2d-matrix/) | [Java](./lintCode/searchMatrix) | Easy |搜索二维矩阵|
+| 31 | [partition-array](http://www.lintcode.com/zh-cn/problem/partition-array/) | [Java](./lintCode/partitionArray) | Medium |数组划分|
+| 50 | [product-of-array-exclude-itself](http://www.lintcode.com/zh-cn/problem/product-of-array-exclude-itself/) | [Java](./lintCode/productExcludeItself) | Easy |数组剔除元素后的乘积|
+| 55 | [compare-strings](http://www.lintcode.com/zh-cn/problem/compare-strings/) | [Java](./lintCode/compareStrings) | Medium |比较字符串|
+| 56 | [2-sum](http://www.lintcode.com/zh-cn/problem/2-sum/) | [Java](./lintCode/twoSum) | Medium |两数之和|
+| 57 | [3-sum](http://www.lintcode.com/zh-cn/problem/3-sum/) | [Java](./lintCode/threeSum) | Medium |三数之和|
+| 59 | [3-sum-closest](http://www.lintcode.com/zh-cn/problem/3-sum-closest/) | [Java](./lintCode/threeSumClosest) | Medium |三数之和 II|
+| 60 | [search-insert-position](http://www.lintcode.com/zh-cn/problem/search-insert-position/) | [Java](./lintCode/searchInsert) | Medium |搜索插入位置|
+| 61 | [search-for-a-range](http://www.lintcode.com/zh-cn/problem/search-for-a-range/) | [Java](./lintCode/searchRange) | Easy |搜索区间|
+| 62 | [search-in-rotated-sorted-array](http://www.lintcode.com/zh-cn/problem/search-in-rotated-sorted-array/) | [Java](./lintCode/searchInRotatedSortedArray) | Medium |搜索旋转排序数组|
+| 64 | [merge-sorted-array](http://www.lintcode.com/zh-cn/problem/merge-sorted-array/) | [Java](./lintCode/mergeSortedArray) | Easy |合并排序数组 II|
+| 74 | [first-bad-version](http://www.lintcode.com/zh-cn/problem/first-bad-version/) | [Java](./lintCode/findFirstBadVersion) | Medium |第一个错误的代码版本|
+| 75 | [find-peak-element](http://www.lintcode.com/zh-cn/problem/find-peak-element/) | [Java](./lintCode/findPeak) | Medium |寻找峰值|
+| 78 | [longest-common-prefix](http://www.lintcode.com/zh-cn/problem/longest-common-prefix/) | [Java](./lintCode/longestCommonPrefix) | Medium |最长公共前缀|
+| 79 | [longest-common-substring](http://www.lintcode.com/zh-cn/problem/longest-common-substring/) | [Java](./lintCode/longestCommonSubstring) | Medium |最长公共子串|
+| 100 | [subarray-sum](http://www.lintcode.com/zh-cn/problem/remove-duplicates-from-sorted-array/) | [Java](./lintCode/removeDuplicates) | Easy |删除排序数组中的重复数字|
+| 138 | [subarray-sum](http://www.lintcode.com/zh-cn/problem/subarray-sum/) | [Java](./lintCode/subarraySum) | Easy |子数组之和|
+| 141 | [sqrtx](http://www.lintcode.com/zh-cn/problem/sqrtx/) | [Java](./lintCode/sqrt) | Easy |x的平方根(二分、牛顿)|
+| 142 | [o1-check-power-of-2](http://www.lintcode.com/zh-cn/problem/o1-check-power-of-2/) | [Java](./lintCode/checkPowerOf2) | Medium |O(1)检测2的幂次(巧用n&(n-1))|
+| 158 | [two-strings-are-anagrams](http://www.lintcode.com/zh-cn/problem/two-strings-are-anagrams/) | [Java](./lintCode/anagram) | Medium |两个字符串是变位词(KMP)|
+| 159 | [find-minimum-in-rotated-sorted-array](http://www.lintcode.com/zh-cn/problem/find-minimum-in-rotated-sorted-array/) | [Java](./lintCode/findMin) | Medium |寻找旋转排序数组中的最小值|
+| 163 | [remove-element](http://www.lintcode.com/zh-cn/problem/unique-binary-search-trees/) | [Java](./lintCode/numTrees) | Medium |不同的二叉查找树(未完成)|
+| 172 | [remove-element](http://www.lintcode.com/zh-cn/problem/remove-element/) | [Java](./lintCode/removeElement) | Easy |删除元素|
+| 179 | [update-bits](http://www.lintcode.com/zh-cn/problem/update-bits/) | [Java](./lintCode/updateBits) | Medium |更新二进制位|
+| 181 | [flip-bits](http://www.lintcode.com/zh-cn/problem/flip-bits/) | [Java](./lintCode/bitSwapRequired) | Medium |A->B改几个Bit|
+| 183 | [wood-cut](http://www.lintcode.com/zh-cn/problem/wood-cut/) | [Java](./lintCode/woodCut) | Medium |木材加工(没看懂题目)|
+| 189 | [first-missing-positive](http://www.lintcode.com/zh-cn/problem/first-missing-positive/) |[Java](./lintCode/firstMissingPositive) | Medium |丢失的第一个正整数|
+| 196 | [find-the-missing-number](http://www.lintcode.com/zh-cn/problem/find-the-missing-number/) |[Java](./lintCode/findMissing) | Easy |寻找缺失的数| 
