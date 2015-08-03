@@ -31,13 +31,15 @@
 | 100 | [subarray-sum](http://www.lintcode.com/zh-cn/problem/remove-duplicates-from-sorted-array/) | [Java](./lintCode/removeDuplicates) | Easy |删除排序数组中的重复数字|
 | 133 | [longest-words](http://www.lintcode.com/zh-cn/problem/longest-words/) | [Java](./lintCode/longestWords) | Easy |最长单词|
 | 138 | [subarray-sum](http://www.lintcode.com/zh-cn/problem/subarray-sum/) | [Java](./lintCode/subarraySum) | Easy |子数组之和|
-| 141 | [sqrtx](http://www.lintcode.com/zh-cn/problem/sqrtx/) | [Java](./lintCode/sqrt) | Easy |x的平方根(二分、牛顿)|
+| 140 | [sqrtx](http://www.lintcode.com/zh-cn/problem/sqrtx/) | [Java](./lintCode/sqrt) | Easy |x的平方根(二分、牛顿)|
+| 141 | [fast-power](http://www.lintcode.com/zh-cn/problem/fast-power/) | [Java](./lintCode/fastPower) | Medium |快速幂(数学问题，通过取模运算公式简化)|
 | 142 | [o1-check-power-of-2](http://www.lintcode.com/zh-cn/problem/o1-check-power-of-2/) | [Java](./lintCode/checkPowerOf2) | Medium |O(1)检测2的幂次(巧用n&(n-1))|
 | 158 | [two-strings-are-anagrams](http://www.lintcode.com/zh-cn/problem/two-strings-are-anagrams/) | [Java](./lintCode/anagram) | Medium |两个字符串是变位词(KMP)|
 | 159 | [find-minimum-in-rotated-sorted-array](http://www.lintcode.com/zh-cn/problem/find-minimum-in-rotated-sorted-array/) | [Java](./lintCode/findMin) | Medium |寻找旋转排序数组中的最小值|
 | 163 | [remove-element](http://www.lintcode.com/zh-cn/problem/unique-binary-search-trees/) | [Java](./lintCode/numTrees) | Medium |不同的二叉查找树(未完成)|
 | 172 | [remove-element](http://www.lintcode.com/zh-cn/problem/remove-element/) | [Java](./lintCode/removeElement) | Easy |删除元素|
 | 179 | [update-bits](http://www.lintcode.com/zh-cn/problem/update-bits/) | [Java](./lintCode/updateBits) | Medium |更新二进制位|
+| 180 | [binary-representation](http://www.lintcode.com/zh-cn/problem/binary-representation/) | [Java](./lintCode/binaryRepresentation) | Hard |二进制表示|
 | 181 | [flip-bits](http://www.lintcode.com/zh-cn/problem/flip-bits/) | [Java](./lintCode/bitSwapRequired) | Medium |A->B改几个Bit|
 | 183 | [wood-cut](http://www.lintcode.com/zh-cn/problem/wood-cut/) | [Java](./lintCode/woodCut) | Medium |木材加工(没看懂题目)|
 | 189 | [first-missing-positive](http://www.lintcode.com/zh-cn/problem/first-missing-positive/) |[Java](./lintCode/firstMissingPositive) | Medium |丢失的第一个正整数|
