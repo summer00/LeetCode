@@ -1,7 +1,5 @@
 package longestCommonSubstring;
 
-import java.util.Arrays;
-
 public class others1 {
 
 	public static void main(String[] args) {
@@ -11,7 +9,7 @@ public class others1 {
 
 	public static int longestCommonSubstring(String A, String B) {
 		int result = 0;
-		if(A.length() != 0 && B.length()!=0){
+		if (A.length() != 0 && B.length() != 0) {
 			int[][] max = new int[A.length()][B.length()];
 			for (int i = 0; i < A.length(); i++) {
 				for (int j = 0; j < B.length(); j++) {

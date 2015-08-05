@@ -1,7 +1,5 @@
 package kthPrimeNumber;
 
-import java.util.ArrayList;
-
 /**
  * 设计一个算法，找出只含素因子3，5，7 的第 k 大的数。符合条件的数如：3，5，7，9，15......
  * 

@@ -1,7 +1,5 @@
 package replaceBlank;
 
-import java.util.Arrays;
-
 /**
  * 设计一种方法，将一个字符串中的所有空格替换成 %20 。
  * 
