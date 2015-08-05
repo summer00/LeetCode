@@ -4,6 +4,7 @@
 |----|----------|-----------|------|
 | 049 | [anagrams](https://leetcode.com/problems/algorithms/) | [Java](./src/algorithms) | Easy |
 | 066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](./src/plusOne) | Easy |
+| 067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](./src/addBinary) | Easy |
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [Java](./src/trailingZeroes) | Easy |
 
 ###lintCode
@@ -11,6 +12,8 @@
 | \# | 问题 | 解决 | 难度 | 说明 |
 |----|----------|-----------|------|----------------|
 | 002 | [trailing-zeros](http://www.lintcode.com/zh-cn/problem/trailing-zeros/) | [Java](./lintCode/trailingZeros) | Easy |尾部的零|
+| 004 | [ugly-number](http://www.lintcode.com/zh-cn/problem/ugly-number/) | [Java](./lintCode/kthPrimeNumber) | Medium |丑数|
+| 009 | [fizz-buzz](http://www.lintcode.com/zh-cn/problem/fizz-buzz/) | [Java](./lintCode/fizzBuzz) | Easy |fizz buzz|
 | 013 | [strstr](http://www.lintcode.com/zh-cn/problem/strstr/) | [Java](./lintCode/strStr) | Easy |字符串查找|
 | 014 | [binary-search](http://www.lintcode.com/zh-cn/problem/binary-search/) | [Java](./lintCode/binarySearch) | Easy |二分查找|
 | 028 | [search-a-2d-matrix](http://www.lintcode.com/zh-cn/problem/search-a-2d-matrix/) | [Java](./lintCode/searchMatrix) | Easy |搜索二维矩阵|
@@ -28,6 +31,8 @@
 | 075 | [find-peak-element](http://www.lintcode.com/zh-cn/problem/find-peak-element/) | [Java](./lintCode/findPeak) | Medium |寻找峰值|
 | 078 | [longest-common-prefix](http://www.lintcode.com/zh-cn/problem/longest-common-prefix/) | [Java](./lintCode/longestCommonPrefix) | Medium |最长公共前缀|
 | 079 | [longest-common-substring](http://www.lintcode.com/zh-cn/problem/longest-common-substring/) | [Java](./lintCode/longestCommonSubstring) | Medium |最长公共子串|
+| 082 | [single-number](http://www.lintcode.com/zh-cn/problem/single-number/) | [Java](./lintCode/singleNumber) | Easy |落单的数|
+| 083 | [single-number-ii](http://www.lintcode.com/zh-cn/problem/single-number-ii/) | [Java](./lintCode/singleNumberII) | Medium |落单的数 II|
 | 100 | [subarray-sum](http://www.lintcode.com/zh-cn/problem/remove-duplicates-from-sorted-array/) | [Java](./lintCode/removeDuplicates) | Easy |删除排序数组中的重复数字|
 | 133 | [longest-words](http://www.lintcode.com/zh-cn/problem/longest-words/) | [Java](./lintCode/longestWords) | Easy |最长单词|
 | 138 | [subarray-sum](http://www.lintcode.com/zh-cn/problem/subarray-sum/) | [Java](./lintCode/subarraySum) | Easy |子数组之和|
@@ -36,7 +41,7 @@
 | 142 | [o1-check-power-of-2](http://www.lintcode.com/zh-cn/problem/o1-check-power-of-2/) | [Java](./lintCode/checkPowerOf2) | Medium |O(1)检测2的幂次(巧用n&(n-1))|
 | 158 | [two-strings-are-anagrams](http://www.lintcode.com/zh-cn/problem/two-strings-are-anagrams/) | [Java](./lintCode/anagram) | Medium |两个字符串是变位词(KMP)|
 | 159 | [find-minimum-in-rotated-sorted-array](http://www.lintcode.com/zh-cn/problem/find-minimum-in-rotated-sorted-array/) | [Java](./lintCode/findMin) | Medium |寻找旋转排序数组中的最小值|
-| 163 | [remove-element](http://www.lintcode.com/zh-cn/problem/unique-binary-search-trees/) | [Java](./lintCode/numTrees) | Medium |不同的二叉查找树(未完成)|
+| 163 | [remove-element](http://www.lintcode.com/zh-cn/problem/unique-binary-search-trees/) | [Java](./lintCode/numTrees) | Medium |不同的二叉查找树(未完成/卡塔兰数)|
 | 172 | [remove-element](http://www.lintcode.com/zh-cn/problem/remove-element/) | [Java](./lintCode/removeElement) | Easy |删除元素|
 | 179 | [update-bits](http://www.lintcode.com/zh-cn/problem/update-bits/) | [Java](./lintCode/updateBits) | Medium |更新二进制位|
 | 180 | [binary-representation](http://www.lintcode.com/zh-cn/problem/binary-representation/) | [Java](./lintCode/binaryRepresentation) | Hard |二进制表示|
@@ -46,3 +51,4 @@
 | 189 | [max-points-on-a-line](http://www.lintcode.com/zh-cn/problem/max-points-on-a-line/) |[Java](./lintCode/maxPoints) | Medium |最多有多少个点在一条直线上|
 | 196 | [find-the-missing-number](http://www.lintcode.com/zh-cn/problem/find-the-missing-number/) |[Java](./lintCode/findMissing) | Easy |寻找缺失的数|
 | 212 | [space-replacement](http://www.lintcode.com/zh-cn/problem/space-replacement/) |[Java](./lintCode/replaceBlank) | Easy |空格替换| 
+| 418 | [integer-to-roman](http://www.lintcode.com/zh-cn/problem/integer-to-roman/) |[Java](./lintCode/intToRoman) | Medium |数字转罗马数字|
