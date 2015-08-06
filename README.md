@@ -41,6 +41,7 @@
 | 142 | [o1-check-power-of-2](http://www.lintcode.com/zh-cn/problem/o1-check-power-of-2/) | [Java](./lintCode/checkPowerOf2) | Medium |O(1)检测2的幂次(巧用n&(n-1))|
 | 158 | [two-strings-are-anagrams](http://www.lintcode.com/zh-cn/problem/two-strings-are-anagrams/) | [Java](./lintCode/anagram) | Medium |两个字符串是变位词(KMP)|
 | 159 | [find-minimum-in-rotated-sorted-array](http://www.lintcode.com/zh-cn/problem/find-minimum-in-rotated-sorted-array/) | [Java](./lintCode/findMin) | Medium |寻找旋转排序数组中的最小值|
+| 162 | [set-matrix-zeroes](http://www.lintcode.com/zh-cn/problem/set-matrix-zeroes/) | [Java](./lintCode/setZeroes) | Medium |矩阵归零|
 | 163 | [remove-element](http://www.lintcode.com/zh-cn/problem/unique-binary-search-trees/) | [Java](./lintCode/numTrees) | Medium |不同的二叉查找树(未完成/卡塔兰数)|
 | 172 | [remove-element](http://www.lintcode.com/zh-cn/problem/remove-element/) | [Java](./lintCode/removeElement) | Easy |删除元素|
 | 179 | [update-bits](http://www.lintcode.com/zh-cn/problem/update-bits/) | [Java](./lintCode/updateBits) | Medium |更新二进制位|
@@ -50,5 +51,7 @@
 | 189 | [first-missing-positive](http://www.lintcode.com/zh-cn/problem/first-missing-positive/) |[Java](./lintCode/firstMissingPositive) | Medium |丢失的第一个正整数|
 | 189 | [max-points-on-a-line](http://www.lintcode.com/zh-cn/problem/max-points-on-a-line/) |[Java](./lintCode/maxPoints) | Medium |最多有多少个点在一条直线上|
 | 196 | [find-the-missing-number](http://www.lintcode.com/zh-cn/problem/find-the-missing-number/) |[Java](./lintCode/findMissing) | Easy |寻找缺失的数|
-| 212 | [space-replacement](http://www.lintcode.com/zh-cn/problem/space-replacement/) |[Java](./lintCode/replaceBlank) | Easy |空格替换| 
+| 212 | [space-replacement](http://www.lintcode.com/zh-cn/problem/space-replacement/) |[Java](./lintCode/replaceBlank) | Easy |空格替换|
+| 405 | [submatrix-sum](http://www.lintcode.com/zh-cn/problem/submatrix-sum/) |[Java](./lintCode/submatrixSum) | Medium |和为零的子矩阵，没做出来，答案也没看懂╮(╯_╰)╭|
+| 407 | [plus-one](http://www.lintcode.com/zh-cn/problem/plus-one/) |[Java](./lintCode/plusOne) | Easy |加一|
 | 418 | [integer-to-roman](http://www.lintcode.com/zh-cn/problem/integer-to-roman/) |[Java](./lintCode/intToRoman) | Medium |数字转罗马数字|
