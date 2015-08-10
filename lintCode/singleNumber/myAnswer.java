@@ -7,6 +7,7 @@ public class myAnswer {
 	public static void main(String[] args) {
 		int[] A = { 1, 2, 2, 1, 3, 4, 3 };
 		System.out.println(singleNumber(A));
+		System.out.println(2^2);
 	}
 
 	public static int singleNumber(int[] A) {

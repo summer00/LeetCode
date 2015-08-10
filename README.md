@@ -18,6 +18,7 @@
 | 014 | [binary-search](http://www.lintcode.com/zh-cn/problem/binary-search/) | [Java](./lintCode/binarySearch) | Easy |二分查找|
 | 028 | [search-a-2d-matrix](http://www.lintcode.com/zh-cn/problem/search-a-2d-matrix/) | [Java](./lintCode/searchMatrix) | Easy |搜索二维矩阵|
 | 031 | [partition-array](http://www.lintcode.com/zh-cn/problem/partition-array/) | [Java](./lintCode/partitionArray) | Medium |数组划分|
+| 046 | [majority-number](http://www.lintcode.com/zh-cn/problem/majority-number/) | [Java](./lintCode/majorityNumber) | Easy |主元素(贪心)|
 | 050 | [product-of-array-exclude-itself](http://www.lintcode.com/zh-cn/problem/product-of-array-exclude-itself/) | [Java](./lintCode/productExcludeItself) | Easy |数组剔除元素后的乘积|
 | 055 | [compare-strings](http://www.lintcode.com/zh-cn/problem/compare-strings/) | [Java](./lintCode/compareStrings) | Medium |比较字符串|
 | 056 | [2-sum](http://www.lintcode.com/zh-cn/problem/2-sum/) | [Java](./lintCode/twoSum) | Medium |两数之和|
@@ -48,10 +49,13 @@
 | 180 | [binary-representation](http://www.lintcode.com/zh-cn/problem/binary-representation/) | [Java](./lintCode/binaryRepresentation) | Hard |二进制表示|
 | 181 | [flip-bits](http://www.lintcode.com/zh-cn/problem/flip-bits/) | [Java](./lintCode/bitSwapRequired) | Medium |A->B改几个Bit|
 | 183 | [wood-cut](http://www.lintcode.com/zh-cn/problem/wood-cut/) | [Java](./lintCode/woodCut) | Medium |木材加工(没看懂题目)|
+| 184 | [largest-number](http://www.lintcode.com/zh-cn/problem/largest-number/) | [Java](./lintCode/largestNumber) | Medium |最大数(重写Comparator比较方法)|
+| 187 | [gas-station](http://www.lintcode.com/zh-cn/problem/gas-station/) |[Java](./lintCode/canCompleteCircuit) | Medium |加油站(贪心)|
 | 189 | [first-missing-positive](http://www.lintcode.com/zh-cn/problem/first-missing-positive/) |[Java](./lintCode/firstMissingPositive) | Medium |丢失的第一个正整数|
 | 189 | [max-points-on-a-line](http://www.lintcode.com/zh-cn/problem/max-points-on-a-line/) |[Java](./lintCode/maxPoints) | Medium |最多有多少个点在一条直线上|
 | 196 | [find-the-missing-number](http://www.lintcode.com/zh-cn/problem/find-the-missing-number/) |[Java](./lintCode/findMissing) | Easy |寻找缺失的数|
-| 212 | [space-replacement](http://www.lintcode.com/zh-cn/problem/space-replacement/) |[Java](./lintCode/replaceBlank) | Easy |空格替换|
+| 212 | [space-replacement](http://www.lintcode.com/zh-cn/problem/space-replacement/) |[Java](./lintCode/smallestDifference) | Easy |空格替换|
+| 387 | [the-smallest-difference](http://www.lintcode.com/zh-cn/problem/the-smallest-difference/) |[Java](./lintCode/replaceBlank) | Medium |最小差(二分)|
 | 405 | [submatrix-sum](http://www.lintcode.com/zh-cn/problem/submatrix-sum/) |[Java](./lintCode/submatrixSum) | Medium |和为零的子矩阵，没做出来，答案也没看懂╮(╯_╰)╭|
 | 407 | [plus-one](http://www.lintcode.com/zh-cn/problem/plus-one/) |[Java](./lintCode/plusOne) | Easy |加一|
 | 418 | [integer-to-roman](http://www.lintcode.com/zh-cn/problem/integer-to-roman/) |[Java](./lintCode/intToRoman) | Medium |数字转罗马数字|
