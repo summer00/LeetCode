@@ -13,45 +13,26 @@ import java.util.ArrayList;
 public class myAnswer {
 	public static void main(String[] args) {
 		int[] A = { 1, -1 };
-		int[] B = { 1, 1, 1, 1, 1, 1, 1, 1, 1, -19, 1, 1, 1, 1, 1, 1, 1, -2, 1, 1, 1, 1, 1, 1, 1, 1, -2, 1, -15, 1, 1,
-				1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+		int[] B = { 1, 2, -2, -100, 1, 2, -2 };
 		System.out.println(continuousSubarraySum(A));
 		System.out.println(continuousSubarraySum(B));
 	}
 
 	public static ArrayList<Integer> continuousSubarraySum(int[] A) {
-		ArrayList<Integer> list = subSum(A, 0);
-		return list;
-	}
-
-	private static ArrayList<Integer> subSum(int[] A, int l) {
 		ArrayList<Integer> list = new ArrayList<>();
-		int start = 0, end = 0;
+		int sum = Integer.MIN_VALUE, tempSum = Integer.MIN_VALUE;
+		int start = 0, end = 0, tempStart = 0;
 		for (int i = 0; i < A.length; i++) {
-			if (A[i] >= 0) {
-				break;
+			if (tempSum < 0) {// 如果前面的和是一个负数，舍弃前面的数，从新开始
+				tempSum = A[i];
+				tempStart = i;
 			} else {
-				start++;
+				tempSum += A[i];
 			}
-		}
-		end = start - 1;
-		boolean isDone = false;
-		for (int i = start; i < A.length && (!isDone); i++) {
-			if (A[i] >= 0) {
-				end++;
-			} else {
-				int temp = 0;
-				for (int j = i; j < A.length; j++) {
-					temp += A[j];
-					if (temp > 0) {
-						i = j;
-						end = j;
-						break;
-					}
-				}
-				if (temp < 0) {
-					isDone = true;
-				}
+			if (sum < tempSum) {
+				sum = tempSum;
+				end = i;
+				start = tempStart;
 			}
 		}
 		list.add(start);

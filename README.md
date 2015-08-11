@@ -56,6 +56,7 @@
 | 196 | [find-the-missing-number](http://www.lintcode.com/zh-cn/problem/find-the-missing-number/) |[Java](./lintCode/findMissing) | Easy |寻找缺失的数|
 | 212 | [space-replacement](http://www.lintcode.com/zh-cn/problem/space-replacement/) |[Java](./lintCode/smallestDifference) | Easy |空格替换|
 | 387 | [the-smallest-difference](http://www.lintcode.com/zh-cn/problem/the-smallest-difference/) |[Java](./lintCode/replaceBlank) | Medium |最小差(二分)|
+| 402 | [continuous-subarray-sum](http://www.lintcode.com/zh-cn/problem/continuous-subarray-sum/) |[Java](./lintCode/continuousSubarraySum) | Medium |连续子数组求和|
 | 405 | [submatrix-sum](http://www.lintcode.com/zh-cn/problem/submatrix-sum/) |[Java](./lintCode/submatrixSum) | Medium |和为零的子矩阵，没做出来，答案也没看懂╮(╯_╰)╭|
 | 407 | [plus-one](http://www.lintcode.com/zh-cn/problem/plus-one/) |[Java](./lintCode/plusOne) | Easy |加一|
 | 418 | [integer-to-roman](http://www.lintcode.com/zh-cn/problem/integer-to-roman/) |[Java](./lintCode/intToRoman) | Medium |数字转罗马数字|
