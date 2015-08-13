@@ -18,6 +18,7 @@ public class myAnswer {
 		System.out.println(continuousSubarraySum(B));
 	}
 
+	// Ì°ÐÄ
 	public static ArrayList<Integer> continuousSubarraySum(int[] A) {
 		ArrayList<Integer> list = new ArrayList<>();
 		int sum = Integer.MIN_VALUE, tempSum = Integer.MIN_VALUE;
