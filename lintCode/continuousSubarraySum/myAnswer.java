@@ -13,9 +13,35 @@ import java.util.ArrayList;
 public class myAnswer {
 	public static void main(String[] args) {
 		int[] A = { 1, -1 };
-		int[] B = { 1, 2, -2, -100, 1, 2, -2 };
+		int[] B = { 1, 2, -2, -100, 1, 2, 9, -2 };
 		System.out.println(continuousSubarraySum(A));
 		System.out.println(continuousSubarraySum(B));
+		System.out.println(continuousSubarraySum1(A));
+		System.out.println(continuousSubarraySum1(B));
+	}
+
+	// 动态规划
+	public static ArrayList<Integer> continuousSubarraySum1(int[] A) {
+		ArrayList<Integer> list = new ArrayList<>();
+		int sum = Integer.MIN_VALUE, tempSum = 0;
+		int start = 0, end = 0, tempStart = 0, tempEnd = 0;
+		for (int i = 0; i < A.length; i++) {
+			if (tempSum + A[i] > A[i]) {
+				tempSum += A[i];
+				tempEnd = i;
+			} else {
+				tempSum = A[i];
+				tempStart = i;
+			}
+			if (tempSum > sum) {
+				sum = tempSum;
+				start = tempStart;
+				end = tempEnd;
+			}
+		}
+		list.add(start);
+		list.add(end);
+		return list;
 	}
 
 	// 贪心
