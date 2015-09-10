@@ -3,9 +3,10 @@ package maxProduct;
 public class myAnswer {
 	public static void main(String[] args) {
 		int[] nums = { 2, 1, 5, 8, -2, 4 };
-		System.out.println(maxProduct1(nums));
+		System.out.println(maxProduct(nums));
 	}
 
+	// TODO 添加描述
 	// 动态规划
 	public static int maxProduct1(int[] nums) {
 		int n = nums.length;

@@ -7,7 +7,7 @@ public class myAnswer {
 	public static void main(String[] args) {
 		System.out.println(longestCommonPrefix(new String[] { "abc", "abcd", "ab", "abc" }));
 	}
-
+	//TODO ø…”≈ªØ
 	public static String longestCommonPrefix(String[] strs) {
 		StringBuffer sb = new StringBuffer();
 		if (strs == null || strs.length == 0) {
@@ -26,7 +26,7 @@ public class myAnswer {
 				return "";
 			}
 			int j = 0;
-			for (; j < sb.length() && j < strs[i].length(); j++) {
+			for (; j < index && j < strs[i].length(); j++) {
 				if (sb.charAt(j) != strs[i].charAt(j)) {
 					break;
 				}

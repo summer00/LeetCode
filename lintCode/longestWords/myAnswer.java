@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class myAnswer {
 	public static void main(String[] args) {
-		String[] dictionary = { "like", "love", "hate", "yes" };
+		String[] dictionary = { "like", "love", "hate", "yes","xxxxx" };
 		System.out.println(longestWords(dictionary));
 	}
 

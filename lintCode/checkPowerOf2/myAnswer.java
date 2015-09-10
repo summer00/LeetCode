@@ -1,5 +1,7 @@
 package checkPowerOf2;
-
+/**
+ * 检查是否是2的幂
+ */
 public class myAnswer {
 	public static void main(String[] args) {
 		System.out.println(checkPowerOf2(9));
