@@ -49,7 +49,7 @@ class MyLineNumberReader extends BufferedReader {
 
 	public MyLineNumberReader(Reader in) {
 		super(in);
-		lineNumber = 0;
+		lineNumber = 1;
 	}
 
 	public int getLineNumber() {
