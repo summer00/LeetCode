@@ -8,6 +8,9 @@ import java.util.Scanner;
 
 import org.junit.Test;
 
+/**
+ * 文件字节流测试
+ */
 public class FileInputStreamTest {
 
 	@Test

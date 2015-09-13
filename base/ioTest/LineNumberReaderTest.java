@@ -9,6 +9,9 @@ import java.io.Reader;
 
 import org.junit.Test;
 
+/**
+ * 行号读取流测试 并自己简单实现
+ */
 public class LineNumberReaderTest {
 	@Test
 	public void setLineTest() {
