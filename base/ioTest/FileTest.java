@@ -20,15 +20,14 @@ public class FileTest {
 		file.mkdirs();
 	}
 
-	@Test
-	public void deleteFileTest() {
-		deleteFile("D:\\test1\\test2\\test3\\test4\\test5");
-	}
-
 	/**
 	 * 递归删除文件
 	 */
-	//TODO 未完成
+	@Test
+	public void deleteFileTest() {
+		deleteFile("D:\\test1");
+	}
+
 	public void deleteFile(String filename) {
 		if (filename == null) {
 			return;
