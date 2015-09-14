@@ -11,6 +11,39 @@ import org.junit.Test;
  */
 public class FileTest {
 
+	@Test
+	/**
+	 * 创建文件目录
+	 */
+	public void createDirectoryTest() {
+		File file = new File("D:\\test1\\test2\\test3\\test4\\test5");
+		file.mkdirs();
+	}
+
+	@Test
+	public void deleteFileTest() {
+		deleteFile("D:\\test1\\test2\\test3\\test4\\test5");
+	}
+
+	/**
+	 * 递归删除文件
+	 */
+	//TODO 未完成
+	public void deleteFile(String filename) {
+		if (filename == null) {
+			return;
+		}
+		File file = new File(filename);
+		if (file.isDirectory()) {
+			String[] list = file.list();
+			for (int i = 0; i < list.length; i++) {
+				deleteFile(filename + "\\" + list[i]);
+			}
+		}
+		file.delete();
+	}
+
+	@Test
 	/**
 	 * 过滤文件
 	 */
@@ -36,30 +69,22 @@ public class FileTest {
 	/**
 	 * 递归得到制定目录下所有文件
 	 */
-	//TODO 未完成
 	public void fileListTest() {
 		String root = "E:\\10.file";
 		getAllFileList(root);
 	}
 
-	public String getAllFileList(String path) {
+	public void getAllFileList(String path) {
 		if (path != null) {
 			File file = new File(path);
 			if (file.isDirectory()) {
 				String[] fileList = file.list();
 				for (int i = 0; i < fileList.length; i++) {
-					if (!(new File(path + "\\" + fileList[i])).isDirectory()) {
-						System.out.println(fileList[i]);
-					} else {
-						getAllFileList(path + "\\" + fileList[i]);
-					}
+					getAllFileList(path + "\\" + fileList[i]);
 				}
 			} else {
 				System.out.println(file.getName());
-				return null;
 			}
 		}
-		return null;
 	}
-
 }
