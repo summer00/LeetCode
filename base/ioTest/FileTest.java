@@ -2,6 +2,7 @@ package ioTest;
 
 import java.io.File;
 import java.io.FilenameFilter;
+import java.io.IOException;
 import java.util.Arrays;
 
 import org.junit.Test;
@@ -12,6 +13,16 @@ import org.junit.Test;
 public class FileTest {
 
 	@Test
+	public void createFileTest() {
+		File file = new File("D:\\test.js");
+		try {
+			file.createNewFile();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Test
 	/**
 	 * 创建文件目录
 	 */
@@ -20,12 +31,24 @@ public class FileTest {
 		file.mkdirs();
 	}
 
+	@Test
+	/**
+	 * 重命名
+	 */
+	public void renameTest() {
+		File file = new File("D:\\test.js");
+		// 不同路径，相当于剪切操作
+		// file.renameTo(new File("E:\\test.js"));
+		// 相同，为重命名
+		file.renameTo(new File("D:\\tt.js"));
+	}
+
 	/**
 	 * 递归删除文件
 	 */
 	@Test
 	public void deleteFileTest() {
-		deleteFile("D:\\test1");
+		deleteFile("D:\\test.js");
 	}
 
 	public void deleteFile(String filename) {
@@ -87,3 +110,37 @@ public class FileTest {
 		}
 	}
 }
+
+/**
+ * 其他File函数：
+ * 
+ * ----------------- A:判断功能：------------------
+ * 
+ * public boolean isDirectory():判断是否是目录
+ * 
+ * public boolean isFile():判断是否是文件
+ * 
+ * public boolean exists():判断是否存在
+ * 
+ * public boolean canRead():判断是否可读
+ * 
+ * public boolean canWrite():判断是否可写
+ * 
+ * public boolean isHidden():判断是否隐藏
+ * 
+ * ----------------- B:获取功能：-------------------
+ * 
+ * public String getAbsolutePath()：获取绝对路径
+ * 
+ * public String getPath():获取路径
+ * 
+ * public String getName():获取名称
+ * 
+ * public long length():获取长度。字节数
+ * 
+ * public long lastModified():获取最后一次的修改时间，毫秒值
+ * 
+ * public String[] list():获取指定目录下的所有文件或者文件夹的名称数组
+ * 
+ * public File[] listFiles():获取指定目录下的所有文件或者文件夹的File数组
+ */
