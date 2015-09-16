@@ -20,7 +20,7 @@ public class FileInputStreamTest {
 	public void readTest() {
 		FileInputStream fis = null;
 		try {
-			fis = new FileInputStream("F:\\study\\9.JAVA_BASE\\笔记\\test.txt");
+			fis = new FileInputStream("F:\\test\\test.txt");
 			int b;
 			while ((b = fis.read()) != -1) {
 				System.out.print((char) b);
@@ -43,9 +43,9 @@ public class FileInputStreamTest {
 	@Test
 	public void writeTest() {
 		try (// 从新写
-				FileOutputStream fos1 = new FileOutputStream("F:\\study\\9.JAVA_BASE\\笔记\\test.txt");
+				FileOutputStream fos1 = new FileOutputStream("F:\\test\\test.txt");
 				// 接着写
-				FileOutputStream fos2 = new FileOutputStream("F:\\study\\9.JAVA_BASE\\笔记\\test.txt", true);) {
+				FileOutputStream fos2 = new FileOutputStream("F:\\test\\test.txt", true);) {
 			fos1.write(99);
 			fos1.write(99);
 			fos1.write(99);
@@ -64,8 +64,8 @@ public class FileInputStreamTest {
 	 * 一次读取一个字节，效率较慢
 	 */
 	public void copyTest() {
-		try (FileInputStream fis = new FileInputStream("F:\\study\\9.JAVA_BASE\\笔记\\test.txt");
-				FileOutputStream fos = new FileOutputStream("F:\\study\\9.JAVA_BASE\\笔记\\test1.txt");) {
+		try (FileInputStream fis = new FileInputStream("F:\\test\\test.txt");
+				FileOutputStream fos = new FileOutputStream("F:\\test\\test1.txt");) {
 			int b;
 			while ((b = fis.read()) != -1) {
 				fos.write(b);
@@ -82,8 +82,8 @@ public class FileInputStreamTest {
 	 * 拷贝改进
 	 */
 	public void copyTestUseArr() {
-		try (FileInputStream fis = new FileInputStream("F:\\study\\9.JAVA_BASE\\笔记\\test.txt");
-				FileOutputStream fos = new FileOutputStream("F:\\study\\9.JAVA_BASE\\笔记\\test2.txt");) {
+		try (FileInputStream fis = new FileInputStream("F:\\test\\test.txt");
+				FileOutputStream fos = new FileOutputStream("F:\\test\\test2.txt");) {
 			// 每次读取的字节存储的数组
 			byte[] b = new byte[100];
 			// 每次长度
@@ -103,7 +103,7 @@ public class FileInputStreamTest {
 	 */
 	public void scannerInputIntoFile() {
 		try (Scanner scanner = new Scanner(System.in);
-				FileOutputStream fos = new FileOutputStream("F:\\study\\9.JAVA_BASE\\笔记\\test.txt")) {
+				FileOutputStream fos = new FileOutputStream("F:\\test\\test.txt")) {
 			String line = scanner.nextLine();
 			if ("exc".equals(line)) {
 				return;

@@ -15,7 +15,7 @@ import org.junit.Test;
 public class LineNumberReaderTest {
 	@Test
 	public void setLineTest() {
-		try (LineNumberReader lnr = new LineNumberReader(new FileReader("F:\\study\\9.JAVA_BASE\\笔记\\test.txt"))) {
+		try (LineNumberReader lnr = new LineNumberReader(new FileReader("F:\\test\\test.txt"))) {
 			String line;
 			lnr.setLineNumber(100); // 设置行号
 			while ((line = lnr.readLine()) != null) {
@@ -32,7 +32,7 @@ public class LineNumberReaderTest {
 	@Test
 	public void myLineNumberReaderTest() {
 		try (MyLineNumberReader myLnr = new MyLineNumberReader(
-				new FileReader("F:\\study\\9.JAVA_BASE\\笔记\\test.txt"))) {
+				new FileReader("F:\\test\\test.txt"))) {
 			myLnr.setLineNumber(1000);
 			String s;
 			while ((s = myLnr.readLine()) != null) {

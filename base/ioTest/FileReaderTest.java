@@ -21,8 +21,8 @@ import org.junit.Test;
 public class FileReaderTest {
 	@Test
 	public void copyTest() {
-		try (FileReader fr = new FileReader("F:\\study\\9.JAVA_BASE\\笔记\\test.txt");
-				FileWriter fw = new FileWriter("F:\\study\\9.JAVA_BASE\\笔记\\test2.txt");) {
+		try (FileReader fr = new FileReader("F:\\test\\test.txt");
+				FileWriter fw = new FileWriter("F:\\test\\test2.txt");) {
 			int c;
 			while ((c = fr.read()) != -1) {
 				fw.write(c);
@@ -36,8 +36,8 @@ public class FileReaderTest {
 
 	@Test
 	public void copyTestUseArr() {
-		try (FileReader fr = new FileReader("F:\\study\\9.JAVA_BASE\\笔记\\test.txt");
-				FileWriter fw = new FileWriter("F:\\study\\9.JAVA_BASE\\笔记\\test2.txt");) {
+		try (FileReader fr = new FileReader("F:\\test\\test.txt");
+				FileWriter fw = new FileWriter("F:\\test\\test2.txt");) {
 			int len;
 			char[] arr = new char[1024];
 			while ((len = fr.read(arr)) != -1) {

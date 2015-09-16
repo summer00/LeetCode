@@ -18,10 +18,10 @@ public class BufferedInputStreamTest {
 		BufferedInputStream bis = null;
 		BufferedOutputStream bos = null;
 		try {
-			FileInputStream fis = new FileInputStream("F:\\study\\9.JAVA_BASE\\笔记\\test.txt");
+			FileInputStream fis = new FileInputStream("F:\\test\\test.txt");
 			// 装饰者模式
 			bis = new BufferedInputStream(fis);
-			FileOutputStream fos = new FileOutputStream("F:\\study\\9.JAVA_BASE\\笔记\\test4.txt", true);
+			FileOutputStream fos = new FileOutputStream("F:\\test\\test4.txt", true);
 			bos = new BufferedOutputStream(fos);
 			int len;
 			while ((len = bis.read()) != -1) {
@@ -57,9 +57,9 @@ public class BufferedInputStreamTest {
 	 */
 	public void tryResourceTest() {
 		try (BufferedInputStream bis = new BufferedInputStream(
-				new FileInputStream("F:\\study\\9.JAVA_BASE\\笔记\\test.txt"));
+				new FileInputStream("F:\\test\\test.txt"));
 				BufferedOutputStream bos = new BufferedOutputStream(
-						new FileOutputStream("F:\\study\\9.JAVA_BASE\\笔记\\test5.txt", true));) {
+						new FileOutputStream("F:\\test\\test5.txt", true));) {
 			int b;
 			while ((b = bis.read()) != -1) {
 				bos.write(b);

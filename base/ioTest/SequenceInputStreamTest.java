@@ -17,9 +17,9 @@ import org.junit.Test;
 public class SequenceInputStreamTest {
 	@Test
 	public void test() {
-		try (FileInputStream fis1 = new FileInputStream("F:\\study\\9.JAVA_BASE\\±Ê¼Ç\\test2.txt");
-				FileInputStream fis2 = new FileInputStream("F:\\study\\9.JAVA_BASE\\±Ê¼Ç\\test3.txt");
-				FileOutputStream fos = new FileOutputStream("F:\\study\\9.JAVA_BASE\\±Ê¼Ç\\test.txt");
+		try (FileInputStream fis1 = new FileInputStream("F:\\test\\test2.txt");
+				FileInputStream fis2 = new FileInputStream("F:\\test\\test3.txt");
+				FileOutputStream fos = new FileOutputStream("F:\\test\\test.txt");
 				SequenceInputStream sis = new SequenceInputStream(fis1, fis2);) {
 			int len;
 			byte[] bytes = new byte[10];

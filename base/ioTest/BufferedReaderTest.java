@@ -17,8 +17,8 @@ import org.junit.Test;
 public class BufferedReaderTest {
 	@Test
 	public void copyTest() {
-		try (BufferedReader br = new BufferedReader(new FileReader("F:\\study\\9.JAVA_BASE\\笔记\\test.txt"));
-				BufferedWriter bw = new BufferedWriter(new FileWriter("F:\\study\\9.JAVA_BASE\\笔记\\test2.txt"))) {
+		try (BufferedReader br = new BufferedReader(new FileReader("F:\\test\\test.txt"));
+				BufferedWriter bw = new BufferedWriter(new FileWriter("F:\\test\\test2.txt"))) {
 			String s;
 			while (null != (s = br.readLine())) {
 				bw.write(s);
@@ -33,8 +33,8 @@ public class BufferedReaderTest {
 
 	@Test
 	public void exchangeFileLine() {
-		try (BufferedReader br = new BufferedReader(new FileReader("F:\\study\\9.JAVA_BASE\\笔记\\test.txt"));
-				BufferedWriter bw = new BufferedWriter(new FileWriter("F:\\study\\9.JAVA_BASE\\笔记\\test1.txt"));) {
+		try (BufferedReader br = new BufferedReader(new FileReader("F:\\test\\test.txt"));
+				BufferedWriter bw = new BufferedWriter(new FileWriter("F:\\test\\test1.txt"));) {
 			String s;
 			List<String> list = new ArrayList<>();
 			while ((s = br.readLine()) != null) {

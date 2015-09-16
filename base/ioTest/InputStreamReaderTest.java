@@ -19,9 +19,9 @@ public class InputStreamReaderTest {
 
 	@Test
 	public void inputStreamReaderTest() {
-		try (InputStreamReader isr = new InputStreamReader(new FileInputStream("F:\\study\\9.JAVA_BASE\\±Ê¼Ç\\test.txt"));
+		try (InputStreamReader isr = new InputStreamReader(new FileInputStream("F:\\test\\test.txt"));
 				OutputStreamWriter osw = new OutputStreamWriter(
-						new FileOutputStream("F:\\study\\9.JAVA_BASE\\±Ê¼Ç\\test.txt2", true), "GBK");) {
+						new FileOutputStream("F:\\test\\test.txt2", true), "GBK");) {
 			int len;
 			char[] b = new char[20];
 			while ((len = isr.read(b)) != -1) {
@@ -37,7 +37,7 @@ public class InputStreamReaderTest {
 	@Test
 	public void bufferedReaderTest() {
 		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(new FileInputStream("F:\\study\\9.JAVA_BASE\\±Ê¼Ç\\test.txt"), "UTF-8"));) {
+				new InputStreamReader(new FileInputStream("F:\\test\\test.txt"), "UTF-8"));) {
 			String s;
 			while ((s = br.readLine()) != null) {
 				System.out.println(s);
