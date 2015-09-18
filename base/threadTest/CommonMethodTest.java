@@ -1,14 +1,65 @@
 package threadTest;
 
 /**
- * 给线程命名；获取当前线程的对象；休眠线程
+ * 给线程命名；获取当前线程的对象；休眠线程；守护线程；join线程；设置优先级
  */
 public class CommonMethodTest {
 	public static void main(String[] args) throws InterruptedException {
 		// getSetNameTest();
 		// sleepTest();
 		// daemonTest();
-		joinTest();
+		// joinTest();
+		// yieldTest();
+		priorityTest();
+	}
+
+	public static void priorityTest() {
+		Thread t1 = new Thread() {
+			public void run() {
+				for (int i = 0; i < 10; i++) {
+					System.out.println(this.getName() + "---" + i + "---" + this.getPriority());
+					Thread.yield();
+				}
+			}
+		};
+		Thread t2 = new Thread(new Runnable() {
+			public void run() {
+				for (int i = 0; i < 10; i++) {
+					System.out.println(Thread.currentThread().getName() + "---" + i);
+					Thread.yield();
+				}
+			}
+		});
+		t1.setName("11");
+		t2.setName("222");
+		t1.setPriority(Thread.MAX_PRIORITY);
+		System.out.println("Thread.MAX_PRIORITY--" + Thread.MAX_PRIORITY + ",Thread.MIN_PRIORITY--"
+				+ Thread.MIN_PRIORITY + ",Thread.MIN_PRIORITY--" + Thread.NORM_PRIORITY);
+		t1.start();
+		t2.start();
+	}
+
+	public static void yieldTest() {
+		Thread t1 = new Thread() {
+			public void run() {
+				for (int i = 0; i < 10; i++) {
+					System.out.println(this.getName() + "---" + i);
+					Thread.yield();
+				}
+			}
+		};
+		Thread t2 = new Thread(new Runnable() {
+			public void run() {
+				for (int i = 0; i < 10; i++) {
+					System.out.println(Thread.currentThread().getName() + "---" + i);
+					Thread.yield();
+				}
+			}
+		});
+		t1.setName("11");
+		t2.setName("222");
+		t1.start();
+		t2.start();
 	}
 
 	/**
