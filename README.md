@@ -1,4 +1,4 @@
-#leetCode
+# leetCode
 
 | \# | 问题 | 解决 | 难度 |
 |----|----------|-----------|------|
@@ -7,7 +7,7 @@
 | 067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](./src/addBinary) | Easy |
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [Java](./src/trailingZeroes) | Easy |
 
-#lintCode
+# lintCode
 
 | \# | 问题 | 解决 | 难度 | 说明 |
 |----|----------|-----------|------|----------------|
@@ -63,13 +63,17 @@
 | 407 | [plus-one](http://www.lintcode.com/zh-cn/problem/plus-one/) |[Java](./lintCode/plusOne) | Easy |加一|
 | 418 | [integer-to-roman](http://www.lintcode.com/zh-cn/problem/integer-to-roman/) |[Java](./lintCode/intToRoman) | Medium |数字转罗马数字|
 
-#方法
-##动态规划
+# 方法
+
+## 动态规划
+
 | \# | 问题 | 解决 | 难度 | 说明 |
 |----|----------|-----------|------|----------------|
 | 191 | [maximum-product-subarray](http://www.lintcode.com/zh-cn/problem/maximum-product-subarray/) |[Java](./lintCode/maxProduct) | Medium |乘积最大的子序列(动态规划)|
 | 402 | [continuous-subarray-sum](http://www.lintcode.com/zh-cn/problem/continuous-subarray-sum/) |[Java](./lintCode/continuousSubarraySum) | Medium |连续子数组求和(动态规划)|
-##贪心
+
+## 贪心
+
 | \# | 问题 | 解决 | 难度 | 说明 |
 |----|----------|-----------|------|----------------|
 | 402 | [continuous-subarray-sum](http://www.lintcode.com/zh-cn/problem/continuous-subarray-sum/) |[Java](./lintCode/continuousSubarraySum) | Medium |连续子数组求和(动态规划/贪心)|
